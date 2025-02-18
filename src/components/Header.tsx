@@ -25,7 +25,7 @@ const Header = ({
   const materials = ["Any", "Ceramic", "Clay", "Plastic", "Metal"];
 
   return (
-    <header className="w-full h-20 bg-white border-b border-gray-200 px-4 md:px-6 lg:px-8 fixed top-0 z-50">
+    <header className="w-full h-20 bg-white/80 backdrop-blur-sm border-b border-gray-200 px-4 md:px-6 lg:px-8 fixed top-0 z-50">
       <div className="max-w-7xl mx-auto h-full flex items-center justify-between gap-4">
         <div className="flex-shrink-0">
           <h1 className="text-2xl font-bold text-[#8BC34A]">BloomBuddy</h1>
